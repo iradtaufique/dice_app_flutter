@@ -5,13 +5,13 @@ void main() {
   runApp(
     MaterialApp(
       home: Scaffold(
-        backgroundColor: Colors.blue.shade900,
+        backgroundColor: Colors.indigo[900],
         appBar: AppBar(
-          title: Text(
+          title: const Text(
             'Dice',
             style: TextStyle(color: Colors.white),
           ),
-          backgroundColor: Colors.blue.shade800,
+          backgroundColor: Colors.indigo[800],
         ),
         body: DicePage(),
       ),
